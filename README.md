@@ -69,9 +69,9 @@ could predict user churn with a F1 score of 0.65 and accuracy of more than 68 %.
  
 ### File content
 
-- README.md										README file 
-- Sparkify_Exploration.ipynb					Jupyter notebook containing the exploratory data analysis
-- Sparkify_Feature_Engineering_Modelling.ipynb	Jupyter notebook containing feature engineering and modelling
+- README.md: README file 
+- Sparkify_Exploration.ipynb: Jupyter notebook containing the exploratory data analysis
+- Sparkify_Feature_Engineering_Modelling.ipynb: Jupyter notebook containing feature engineering and modelling
 
 ### Used frameworks
 Software versions:
