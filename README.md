@@ -22,24 +22,24 @@ Here, churn is defined as the access of page "Cancellation Confirmation" by the 
 
 Schema of the dataset:
 root
- |-- artist: string (nullable = true)
- |-- auth: string (nullable = true)
- |-- firstName: string (nullable = true)
- |-- gender: string (nullable = true)
- |-- itemInSession: long (nullable = true)
- |-- lastName: string (nullable = true)
- |-- length: double (nullable = true)
- |-- level: string (nullable = true)
- |-- location: string (nullable = true)
- |-- method: string (nullable = true)
- |-- page: string (nullable = true)
- |-- registration: long (nullable = true)
- |-- sessionId: long (nullable = true)
- |-- song: string (nullable = true)
- |-- status: long (nullable = true)
- |-- ts: long (nullable = true)
- |-- userAgent: string (nullable = true)
- |-- userId: string (nullable = true)
+- artist: string (nullable = true)
+- auth: string (nullable = true)
+- firstName: string (nullable = true)
+- gender: string (nullable = true)
+- itemInSession: long (nullable = true)
+- lastName: string (nullable = true)
+- length: double (nullable = true)
+- level: string (nullable = true)
+- location: string (nullable = true)
+- method: string (nullable = true)
+- page: string (nullable = true)
+- registration: long (nullable = true)
+- sessionId: long (nullable = true)
+- song: string (nullable = true)
+- status: long (nullable = true)
+- ts: long (nullable = true)
+- userAgent: string (nullable = true)
+- userId: string (nullable = true)
  
 More information about the exploratory data analysis can be found in the respective Jupyter notebook or in the linked blogpost article (see link below). 
  
@@ -86,7 +86,7 @@ Python libraries used in the project:
 ### Installation / Usage
 
 - Install the above mentioned libraries / software
-- Clone Git repository: https://github.com/christoph1604/Udacity_DataScientist_Project4_Capstone_Sparkify.git
+- Clone Git repository: https://github.com/christoph1604/Udacity_DataScientist_Project4.0_Capstone_Sparkify.git
 - Run the Jupyter notebooks: 
 	cd <downloadpath>
 	jupyter notebook
