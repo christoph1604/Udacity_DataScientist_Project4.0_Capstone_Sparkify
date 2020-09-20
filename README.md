@@ -51,6 +51,7 @@ More information about the exploratory data analysis can be found in the respect
 
 ### Results
 In the first modelling step, 7 different classifiers were compared in concerns of F1 score and accuracy on a test dataset:
+
 * DecisionTreeClassifier
 * GBTClassifier
 * RandomForestClassifier
@@ -58,6 +59,7 @@ In the first modelling step, 7 different classifiers were compared in concerns o
 * LogisticRegression
 * LinearSVC
 * MultilayerPerceptronClassifier
+
 The LinearRegression classifier obviously cannot be used when predicting a categorical (dichotomous) variable.
 Regarding the F1 score, LogisticRegression turned out to be the best classifier, having position 2 regarding accuracy. 
 Due to the high imbalance of churn vs. non-churn users, the F1 score is the better evaluation metric. 
